@@ -1,4 +1,3 @@
-git+https://github.com/Rapptz/discord.py
 aiohttp
 wrapt==1.12.1
 xmltodict==0.12.0
