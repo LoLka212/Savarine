@@ -1,6 +1,9 @@
+import os
+import discord
+from discord.ext import commands
+import asyncio
 import disnake
 from disnake.ext import commands
-import os
 
 bot = commands.InteractionBot(intents=disnake.Intents.all())
 
