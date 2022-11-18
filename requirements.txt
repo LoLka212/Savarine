@@ -2,3 +2,4 @@ asyncio
 disnake
 discord
 aiohttp
+git+https://github.com/Rapptz/discord.py
