@@ -24,3 +24,4 @@ timeago
 asyncpg
 lavalink
 nextcord
+git+https://github.com/Rapptz/discord.py
