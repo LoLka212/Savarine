@@ -2,10 +2,6 @@ import os
 import disnake
 from disnake.ext import commands
 
-intents = discord.Intents.default() # or .all() if you ticked all, that is easier
-intents.members = True
-intents = discord.Intents.all()
-
 bot = commands.InteractionBot(intents=disnake.Intents.all())
 
 @bot.slash_command(description="Replies with the given text!")
