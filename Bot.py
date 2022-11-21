@@ -18,7 +18,7 @@ async def hello(inter,ctx, amount: int=None):
     await inter.response.send_message("World")
 
 @bot.slash_command()
-async def ping(inter,ctx, amount: int=None):
+async def ping(inter,amount: int=None):
     await inter.response.send_message("Pong!")
 
 bot.run(os.getenv('TOKEN'))
